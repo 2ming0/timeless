@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="join.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *{font-family: 'Roboto Mono', monospace;}
+    </style>
+    <title>TimelessCommunity_join</title>
+</head>
+<body>
+    <header>
+        <h1>join</h1>
+        <img id="img" src="img/wingkky.gif">
+    </header>
+    <main>
+        <div class="inform">
+            <a>이름</a>
+            <input class="inform_input" placeholder="이름" type="text">
+        </div>
+        <div class="inform">
+            <a>아이디</a>
+            <input class="inform_input" placeholder="id" type="text">
+            <input id="check_overlap_btn" type="button" value="중복확인">
+        </div>
+        <div class="inform">
+            <a>비밀번호</a>
+            <input class="inform_input" placeholder="password" type="password">
+        </div>
+        <div class="inform">
+            <a>비밀번호 확인</a>
+            <input class="inform_input" placeholder="check password" type="password">
+        </div>
+        <div class="inform"> 
+            <a>생일</a>
+            <input class="inform_input" placeholder="YYMMDD" type="text">
+        </div> 
+        <div class="inform"> 
+            <a>전화번호</a>
+            <input class="inform_input" placeholder="000-0000-0000" type="text">
+        </div> 
+        <div> 
+            <input id ="join_btn" type="button" value="회원가입">
+        </div>
+        <!-- <div id="text">
+            <span id="join">회원가입</span>
+            <span id="search">아이디/비밀번호 찾기</span>
+        </div> -->
+    </main>
+
+    <script src="js/join.js"></script>
+</body>
+</html>

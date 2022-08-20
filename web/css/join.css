@@ -1,0 +1,55 @@
+body {
+    width: 50%;
+    height: 650px;
+    border: 5px solid gray;  
+    border-radius: 30px;  
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+}
+
+#img {
+    width: 20%;
+}
+
+.inform {
+    position: relative;
+    margin: 5%;
+    margin-left: 25%;
+    width: 100%;
+}
+
+.inform_input {
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: inline-block;
+    right: 50%;
+}
+
+#check_overlap_btn {
+    position: absolute;
+    right: 40%;    
+    background-color: lightgray;
+    height: 30px;
+    border-radius: 4px;
+}
+
+#join_btn {
+    background-color: gray;
+    color: white;
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}

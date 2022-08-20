@@ -1,0 +1,60 @@
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+
+nav {
+    border: 5px solid gray;
+    border-radius: 20px;
+    width: 16%;
+    height: 80vh;
+    margin: 1%;
+}
+
+#nav_title {
+    font-size: 25px;
+    margin-left: 25%;
+}
+
+#timeless_img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.introduce {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 2%;
+}
+
+#board_select {
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+#post_title {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    margin-bottom: 2%;
+}
+
+#post_content {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+}
